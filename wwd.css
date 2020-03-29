@@ -1,0 +1,128 @@
+@import url("https://use.typekit.net/rzq4lae.css");
+
+
+:root {
+    --main: #0D0F35;
+    --white: #ffffff;
+    --parag: #434354;
+    --blue: #0000F6;
+    --ease: all 0.3s ease 0s;
+}
+
+
+
+
+.services {
+    display: flex;
+    width: 100%;
+    margin-top: 2.5em;
+    text-align: center;
+    padding: 5em;
+    padding-left: 7em;
+}
+
+
+
+
+.wwd {
+    display: block;
+    float: left;
+    width: 40%;    
+}
+
+
+
+h5 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    text-align: start;
+    font-size: 42px;
+    color: var(--main);
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+.sideList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+.before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    left: 0;
+    background-color: var(--main);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+}
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    border-style: none;
+    text-align: center;
+    align-items: center;
+    float: right;
+    width: 40%;
+    height: 60%;
+    margin: 20px;
+    padding: auto;
+}
+
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.container h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    color: var(--main);
+    text-align: center;
+}
+
+
+
+#showcase {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: var(--parag);
+    margin: auto;
+    width: 80%;
+}
+
+
+
+.container {
+    padding: 1em;
+    margin-top: 0.9em;
+    margin: auto;
+}
+
+
+.card img {
+    height: 200px;
+    width: 300px;
+    margin-top: 0.5em;
+    margin-bottom: -20px;
+}

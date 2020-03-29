@@ -1,0 +1,100 @@
+@import url("https://use.typekit.net/rzq4lae.css");
+
+
+:root {
+    --main: #0D0F35;
+    --white: #ffffff;
+    --parag: #434354;
+    --blue: #0000F6;
+    --ease: all 0.3s ease 0s;
+}
+
+
+.projects {
+    margin-top: 2.5em;
+    margin-left: 7em;
+}
+/* product List section */
+
+.productLists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+.productImage img, .productImage2 img {
+    height: 95%;
+    width: 95%;
+    border-radius: 5px;
+}
+.productDescription {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+  /* product section 2 */
+.productLists2 {
+    display: grid;
+    grid-template-columns: .9fr 1fr;
+    margin-bottom: 50px;
+}
+.productDescription2 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.order1{
+    /* to make the desc come first */
+    order : 1;
+}
+.order2{
+    /* to make the image come second */
+    order : 2;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+
+.productsImageHolder img {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    right: 0px;
+    transition: 1s ease-out;
+}
+.productsImageHolder img:hover {
+    transition: 1s ease-in;
+    width: 75%;
+}
+
+.productImage:hover, .productImage:focus img {
+    transform: scale(1.05);
+}
+
+.productImage {
+    transition: 1s all ease;
+}
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    .pic {
+      margin: auto;
+    }
+}
+*/

@@ -1,0 +1,71 @@
+@import url("https://use.typekit.net/rzq4lae.css");
+
+
+:root {
+    --main: #0D0F35;
+    --white: #ffffff;
+    --parag: #434354;
+    --blue: #0000F6;
+    --ease: all 0.3s ease 0s;
+}
+
+
+.alpha {
+    width: 80%;
+    padding: 5em;
+    padding-top: 15em;
+    margin: auto;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.mainHead {
+    display: block;
+    width:100%;
+    line-height: 1.5;
+    align-content: center;
+    text-align: center;
+
+}
+
+
+.mainHead h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: var(--main);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--main);
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+span {
+    color: var(--blue);
+}
+
+
+
+
+.mainHead p {
+    text-align: center;
+    width: 90%;
+    margin-top: 1.5em;
+}
+
+
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: var(--parag);
+    width: 60%;
+    text-align: justify;
+    line-height: 1.5;
+}

@@ -1,0 +1,59 @@
+@import url("https://use.typekit.net/rzq4lae.css");
+
+
+:root {
+    --main: #0D0F35;
+    --white: #ffffff;
+    --parag: #434354;
+    --blue: #0000F6;
+    --ease: all 0.3s ease 0s;
+}
+
+
+.footerContainer {
+    display: block;
+    width: 100%;
+    margin-top : 2.5em;
+    padding-left: 5em;
+    overflow: hidden;
+}
+
+
+.create {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-left: 2em;
+    text-align: justify;
+    width: 100%;
+    
+}
+
+
+.mainButton {
+    margin-top: 1px;
+}
+
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding-left: 2em;
+    width: 80%;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.social p {
+    font-size: 15px;
+}
+
+.socialItem img {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+}
+
